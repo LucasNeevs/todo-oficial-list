@@ -1,18 +1,32 @@
 {
-  "name": "todo-list-july",
-  "version": "0.1.0",
+  "name": "todo-oficial-list",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
-    "@types/jest": "^26.0.15",
+    "@types/chai": "^4.2.20",
+    "@types/chai-enzyme": "^0.6.8",
+    "@types/enzyme": "^3.10.9",
+    "@types/enzyme-adapter-react-16": "^1.0.6",
+    "@types/jest": "^26.0.23",
+    "@types/mocha": "^8.2.2",
     "@types/node": "^12.0.0",
-    "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
+    "@types/styled-components": "^5.1.11",
+    "chai": "^4.3.4",
+    "chai-enzyme": "^1.0.0-beta.1",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.6",
+    "grommet": "^2.17.3",
+    "grommet-icons": "^4.6.0",
+    "jest": "^27.0.6",
+    "mocha": "^9.0.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
+    "styled-components": "^5.3.0",
     "typescript": "^4.1.2",
     "web-vitals": "^1.0.1"
   },
@@ -20,7 +34,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "eslintConfig": {
     "extends": [
@@ -39,5 +55,28 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@storybook/addon-actions": "^6.3.2",
+    "@storybook/addon-console": "^1.2.3",
+    "@storybook/addon-docs": "^6.3.2",
+    "@storybook/addon-essentials": "^6.3.2",
+    "@storybook/addon-info": "^5.3.21",
+    "@storybook/addon-links": "^6.3.2",
+    "@storybook/react": "^6.3.2",
+    "@types/react": "^17.0.13",
+    "@typescript-eslint/eslint-plugin": "^4.28.2",
+    "@typescript-eslint/parser": "^4.28.2",
+    "awesome-typescript-loader": "^5.2.1",
+    "babel-loader": "^8.2.2",
+    "eslint": "^7.2.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.21.5",
+    "eslint-plugin-react-hooks": "^1.7.0",
+    "react-docgen-typescript-loader": "^3.7.2",
+    "video.js": "^7.13.3"
   }
 }
