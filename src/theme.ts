@@ -1,6 +1,6 @@
 import { ThemeType } from 'grommet';
 
-const Theme = {
+const ThemeGrommet = {
   defaultMode: 'light',
   global: {
     colors: {
@@ -13,4 +13,4 @@ const Theme = {
   }
 } as unknown as ThemeType;
 
-export default Theme;
+export default ThemeGrommet;
